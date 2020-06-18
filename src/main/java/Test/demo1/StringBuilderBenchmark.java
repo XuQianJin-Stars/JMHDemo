@@ -15,13 +15,7 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
 
 import java.util.concurrent.TimeUnit;
 
-/**
- * 比较字符串直接相加和StringBuilder的效率
- *
- * @author XiongNeng
- * @version 1.0
- * @since 2018/1/7
- */
+/** 比较字符串直接相加和StringBuilder的效率 */
 @BenchmarkMode(Mode.Throughput)
 @Warmup(iterations = 3)
 @Measurement(iterations = 10, time = 5, timeUnit = TimeUnit.SECONDS)
